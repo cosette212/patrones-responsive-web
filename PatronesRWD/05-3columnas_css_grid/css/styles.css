@@ -49,3 +49,10 @@ p {
 
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .contenedor-grid {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        column-gap: 2rem;;
+    }
+}
